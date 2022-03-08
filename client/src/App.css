@@ -1,0 +1,195 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* FONTS */
+.font-13 {
+  font-size: 13px !important;
+}
+
+.font-40 {
+  font-size: 40px;
+  line-height: 20px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+/* PADDING */
+.padding-100 {
+  padding-top: 100px;
+}
+
+/* IMAGE */
+.ball-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.social-big-screen {
+  display: block;
+}
+
+.social-small-screen {
+  display: none;
+}
+
+.mobile-view {
+  display: none;
+}
+
+@media (max-width: 769px) {
+
+  /* FONTS */
+  .font-40 {
+    font-size: 24px;
+  }
+
+  .font-28 {
+    font-size: 20px;
+  }
+
+  .font-24 {
+    font-size: 17px;
+  }
+
+  .font-20 {
+    font-size: 14px;
+  }
+
+  /* PADDING */
+  .padding-100 {
+    padding-top: 10px;
+  }
+
+  /* IMAGE */
+  .ball-image {
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+  }
+
+  .social-big-screen {
+    display: none;
+  }
+  
+  .social-small-screen {
+    display: block;
+  }
+
+  .web-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: block;
+  }
+
+  .account-dropdown {
+    left: -40px !important;
+  }
+
+  .menu-dropdown .dropdown-toggle::after {
+    display: none;
+  } 
+
+  .menu-dropdown .dropdown-menu {
+    width: 270px;
+    top: 50px !important;
+    left: -15px !important;
+  }
+
+  .menu-dropdown hr {
+    margin: 0px;
+    border-top: 0.5px solid #6f4fd8;
+  }
+
+  .menu-dropdown .dropdown-item {
+    color: #dbd7f6;
+    font-size: 14px;
+  }
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, #6913cc 30%, #0e44f7 100%);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #4d22d9;
+}
+
+.dropdown-item {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #4d22d9;
+}
+
+.bg-landing {
+  position: relative;
+  background: url('./img/home-background.jpg') no-repeat center center/cover;
+  /* min-height: 100vh; */
+}
+
+.rounded-xl {
+  border-radius: 20px;
+}
+
+.custom-bg-color-1 {
+  background: linear-gradient(90deg, #6913cc 30%, #0e44f7 100%);
+  opacity: 0.9;
+}
+
+.bg-footer {
+  background-color: #111222;
+}
+
+.footer-text {
+  color: #737482;
+}
+
+.bg-bottom {
+  background-color: black;
+}
+
+.bottom-text {
+  color: #838385;
+}
+
+@media (max-width: 769px) {
+  .contact-us {
+    text-align: left !important;
+  }
+}
+
+.width-10 {
+  width: 10px;
+}
+
+.width-30 {
+  width: 30px;
+}
