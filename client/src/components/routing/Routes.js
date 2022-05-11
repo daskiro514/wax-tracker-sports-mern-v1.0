@@ -6,6 +6,7 @@ import Alert from '../layout/Alert'
 import Dashboard from '../dashboard/Dashboard'
 import NotFound from '../layout/NotFound'
 import PrivateRoute from '../routing/PrivateRoute'
+import Search from '../layout/Search'
 
 const Routes = props => {
   return (
@@ -15,6 +16,7 @@ const Routes = props => {
         <Route exact path="/register" component={Register} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/search" component={Search} />
         <PrivateRoute path="/dashboard" component={Dashboard} />
         <Route component={NotFound} />
       </Switch>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import baseballImage from '../../img/baseball.png'
@@ -33,7 +34,7 @@ const Landing = ({ isAuthenticated }) => {
                   required
                 />
                 <div className="input-group-append">
-                  <button className="btn btn-warning px-3" type="submit"><i className='fa fa-chevron-right'></i></button>
+                  <Link to='/search' className="btn btn-warning px-3 pt-2" type="submit"><i className='fa fa-chevron-right pt-2'></i></Link>
                 </div>
               </div>
             </div>
@@ -47,15 +48,15 @@ const Landing = ({ isAuthenticated }) => {
                     <div className='row'>
                       <div className='col-4 px-1 text-center'>
                         <img alt='SETIMAGE' src={footballImage} className='ball-image' />
-                        <span>Football</span>
+                        <Link to='/search'>Football</Link>
                       </div>
                       <div className='col-4 px-1 text-center'>
                         <img alt='SETIMAGE' src={basketballImage} className='ball-image' />
-                        <span>Basketball</span>
+                        <Link to='/search'>Basketball</Link>
                       </div>
                       <div className='col-4 px-1 text-center'>
                         <img alt='SETIMAGE' src={baseballImage} className='ball-image' />
-                        <span>Baseball</span>
+                        <Link to='/search'>Baseball</Link>
                       </div>
                     </div>
                   </div>

@@ -1,5 +1,13 @@
+@media (max-width: 769px) {
+  .container-fluid {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
 a {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
@@ -86,7 +94,7 @@ a:hover {
   .social-big-screen {
     display: none;
   }
-  
+
   .social-small-screen {
     display: block;
   }
@@ -105,7 +113,7 @@ a:hover {
 
   .menu-dropdown .dropdown-toggle::after {
     display: none;
-  } 
+  }
 
   .menu-dropdown .dropdown-menu {
     width: 270px;
@@ -192,4 +200,308 @@ a:hover {
 
 .width-30 {
   width: 30px;
+}
+
+.bg-main-blue {
+  /* background-color: #4c23d9; */
+  background: linear-gradient(180deg, #4c22d9 1%, #2239ed 100%);
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Customize the label (the radio-container) */
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.radio-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input~.radio-checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked~.radio-checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked~.radio-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .radio-checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.border-width-4px {
+  border-width: 4px !important;
+}
+
+.border-black {
+  border-color: black !important;
+}
+
+.bg-yellow {
+  background-color: #ffff00;
+}
+
+.text-black {
+  color: black;
+}
+
+.form1 {
+  margin: 0 auto;
+  padding: 10px 0;
+
+  @media (min-width: 800px) {
+    max-width: 60%;
+  }
+}
+
+.form1 .input-range {
+  margin-bottom: 30px;
+}
+
+.input-range__track {
+  height: 7px !important;
+}
+
+.input-range__label-container {
+  font-size: 16px !important;
+  line-height: 12px;
+  color: white !important;
+}
+
+.input-range__label--min .input-range__label-container {
+  margin-left: 20px;
+}
+
+.input-range__label--max .input-range__label-container {
+  margin-right: 40px;
+}
+
+.input-range__track--active {
+  background: #1983ff !important;
+}
+
+.border-light-blue {
+  border-color: #b5dbf7 !important;
+}
+
+.border-3px {
+  border-width: 3px !important;
+}
+
+.bg-light-blue {
+  background-color: #d7ecfb;
+}
+
+hr {
+  margin: 0;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+@media (max-width: 769px) {
+  .w-20 {
+    width: 100% !important;
+  }
+
+  .circled-graph .d-inline-block {
+    display: block !important;
+  }
+
+  .circled-graph .d-inline-block .d-block {
+    display: flex !important;
+  }
+}
+
+.circled-graph foreignObject {
+  display: none;
+}
+
+.apexcharts-donut-slice-1 {
+  fill: #ddd !important;
+}
+
+.donut-purple .apexcharts-donut-slice-0 {
+  fill: #8c23cf !important
+}
+
+.donut-danger .apexcharts-donut-slice-0 {
+  fill: #dc3545 !important
+}
+
+.donut-success .apexcharts-donut-slice-0 {
+  fill: #28a745 !important
+}
+
+.donut-primary .apexcharts-donut-slice-0 {
+  fill: #007bff !important
+}
+
+.donut-warning .apexcharts-donut-slice-0 {
+  fill: #ffc107 !important
+}
+
+.text-purple {
+  color: #8c23cf !important
+}
+
+.circled-graph .bg-light, .area-graph .bg-light {
+  background-color: #f5f5f5 !important;
+}
+
+.area-graph input {
+  width: 110px;
+}
+
+.search-results .show-options select {
+  width: 120px;
+  background-color: #eee;
+  border-color: #ddd;
+  border-radius: 5px;
+}
+
+.width-100 {
+  min-width: 90px !important;
+}
+
+@media (max-width: 769px) {
+  .search-results .show-options .text-right {
+    text-align: left !important;
+  }
+
+  .btn-inner-text {
+    display: none;
+  }
+
+  .width-100 {
+    min-width: 30px !important;
+  }
+}
+
+.bg-purple {
+  background-color: #8725d1;
+}
+
+.bg-blue {
+  background-color: #2e3eee;
+}
+
+.width-120 {
+  width: 130px;
+}
+
+@media (max-width: 769px) {
+  .result .width-120 {
+    display: none;
+  }
+  .result .fade1 {
+    display: none;
+  }
 }

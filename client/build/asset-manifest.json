@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.257ba695.chunk.css",
+    "main.js": "/static/js/main.9e6f7e1c.chunk.js",
+    "main.js.map": "/static/js/main.9e6f7e1c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.776c1e0d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.776c1e0d.js.map",
+    "static/css/2.aa08edf4.chunk.css": "/static/css/2.aa08edf4.chunk.css",
+    "static/js/2.36f3061e.chunk.js": "/static/js/2.36f3061e.chunk.js",
+    "static/js/2.36f3061e.chunk.js.map": "/static/js/2.36f3061e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.aa08edf4.chunk.css.map": "/static/css/2.aa08edf4.chunk.css.map",
+    "static/css/main.257ba695.chunk.css.map": "/static/css/main.257ba695.chunk.css.map",
+    "static/js/2.36f3061e.chunk.js.LICENSE.txt": "/static/js/2.36f3061e.chunk.js.LICENSE.txt",
+    "static/media/baseball.5fed0a5c.png": "/static/media/baseball.5fed0a5c.png",
+    "static/media/basketball.488bf2b5.png": "/static/media/basketball.488bf2b5.png",
+    "static/media/football.a1a54d03.png": "/static/media/football.a1a54d03.png",
+    "static/media/App.css": "/static/media/home-background.40f75eac.jpg",
+    "static/media/notifications.css": "/static/media/notification.c5d9251e.ttf",
+    "static/media/product1.a08393b5.JPG": "/static/media/product1.a08393b5.JPG",
+    "static/media/volleyball.9315d23b.jpg": "/static/media/volleyball.9315d23b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.776c1e0d.js",
+    "static/css/2.aa08edf4.chunk.css",
+    "static/js/2.36f3061e.chunk.js",
+    "static/css/main.257ba695.chunk.css",
+    "static/js/main.9e6f7e1c.chunk.js"
+  ]
+}
